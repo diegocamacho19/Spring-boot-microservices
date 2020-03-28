@@ -1,0 +1,6 @@
+spring.application.name=config-server
+server.port:8889
+
+#para agregar el repositorio git
+# en windows spring.cloud.config.server.git.uri=file://C:/Users/Diego/Desktop/config/
+spring.cloud.config.server.git.uri=file://D:/Users/Diego/Documents/Proyectos Spring tool/config/

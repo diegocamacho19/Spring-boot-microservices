@@ -1,0 +1,23 @@
+spring.application.name=servicio-zuul-server
+server.port=8090
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+#productos puede ser cualquier nombre
+zuul.routes.productos.service-id=servicio-productos
+zuul.routes.productos.path=/api/productos/**
+
+zuul.routes.items.service-id=servicio-items
+zuul.routes.items.path=/api/items/**
+
+
+#hystrux con timeout eenvuelve a ribbon y siempre hystrix tendra un tiempo mayor a ribbon
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 20000
+#ribbon.ConnectTimeout: 3000
+#ribbon.ReadTimeout: 10000
+
+
+#en zuul existe el enrutado Pre,Post,Route
+#Pre= se ejecuta antes de que el request sea enrutado-se usa para pasar datos al request
+#Post= se ejecuta despues dee que el request haya sido enrutado-Se usa para modificar respuesta
+#Route=se ejecuta durante el enrutado del request, aqui se resulve la ruta- se usa para la comunicacion con el microservicio

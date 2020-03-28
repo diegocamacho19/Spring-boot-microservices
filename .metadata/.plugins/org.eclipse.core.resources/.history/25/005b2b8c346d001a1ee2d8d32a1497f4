@@ -1,0 +1,8 @@
+spring.application.name=servicio-items
+
+#se agrega el proyecto items como cliente y ademas se crea bootsatrp.properties para conectar al server spring config, bootdtrap arranca primero que el aplication.properties, en bootstrap solo es para spring cloud config
+
+#spring.cloud.config.uri con esta linea cuando arranca va a ir al servidor de configuracion spring config y va a preguntar por toda la configuracion de ese microservicio
+spring.cloud.config.uri=http://localhost:8889
+
+spring.profiles.active=pro
