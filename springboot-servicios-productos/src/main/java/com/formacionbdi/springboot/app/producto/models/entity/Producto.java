@@ -1,4 +1,9 @@
-package com.formacionbdi.springboot.app.producto.models.entity;
+
+
+//ESTA CLASE SE DEBE ELLIMINAR POR QUE YA SE TIENE ESTO EN COMMONS CON TODO Y PAQUETE PORQUE ESTO YA NO SE VA A UTLIZAR
+
+
+/*package com.formacionbdi.springboot.app.producto.models.entity;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -29,7 +34,7 @@ public class Producto implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
 	
-	/* Transient indica que no esta en ningun campo o indicado en la base de datos */
+	Transient indica que no esta en ningun campo o indicado en la base de datos 
 	@Transient
 	private Integer port;
 	
@@ -67,4 +72,4 @@ public class Producto implements Serializable {
 
 	private static final long serialVersionUID = 1035371288287386882L;
 
-}
+}*/

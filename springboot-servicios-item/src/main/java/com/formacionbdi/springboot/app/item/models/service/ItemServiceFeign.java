@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
 
 import com.formacionbdi.springboot.app.item.clientes.ProductoClienteRest;
 import com.formacionbdi.springboot.app.item.models.Item;
-import com.formacionbdi.springboot.app.item.models.Producto;
+//import com.formacionbdi.springboot.app.item.models.Producto; antes de usar commons
+import com.formacionbdi.springboot.app.commons.models.entity.Producto;
 
 @Service ("serviceFeign")
 /* @Primary le digo que feign es el principal por ensima de rest template*/

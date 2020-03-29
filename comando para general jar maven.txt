@@ -1,0 +1,5 @@
+Primero vas a la ruta de commons o de tu proyecto spring boot y ejecutas el siguiente comando
+
+mvnw.cmd install
+
+Hay que tener en cuenta que para que funcione el comando hay que tener en las variables de entorno configurado el JAVA_HOME del jdk y en el PATH tambien el jdk

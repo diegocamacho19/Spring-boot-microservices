@@ -6,8 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+//esto era antes cuando no se usaba el proyecto commons
+//import com.formacionbdi.springboot.app.producto.models.entity.Producto;
+
 import com.formacionbdi.springboot.app.producto.models.dao.ProductoDao;
-import com.formacionbdi.springboot.app.producto.models.entity.Producto;
+import com.formacionbdi.springboot.app.commons.models.entity.Producto;
 
 @Service
 public class ProductoServiceImpl implements IProductoService{

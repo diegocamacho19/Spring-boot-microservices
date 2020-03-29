@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.formacionbdi.springboot.app.item.models.Producto;
+//import com.formacionbdi.springboot.app.item.models.Producto; antes de usar commons
+import com.formacionbdi.springboot.app.commons.models.entity.Producto;
 
 //@FeignClient(name = "servicio-productos", url = "localhost:8001") esto es sin ribbon
 @FeignClient(name = "servicio-productos")

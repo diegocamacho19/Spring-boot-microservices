@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.item.models;
+/*package com.formacionbdi.springboot.app.item.models;
 
 import java.util.Date;
 
@@ -39,5 +39,7 @@ public class Producto {
 	public void setPort(Integer port) {
 		this.port = port;
 	}
+	
 		
 }
+*/
