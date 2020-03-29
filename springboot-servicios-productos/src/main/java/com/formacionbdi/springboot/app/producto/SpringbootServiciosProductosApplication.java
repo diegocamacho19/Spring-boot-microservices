@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-//@EntityScan({"com.formacionbdi.springboot.app.commons.entity"})  //esto es para decirle a la aplicacion que tambien me escanee otros packages de common que tambien esta en maven
+@EntityScan({"com.formacionbdi.springboot.app.commons.models.entity"})  //esto es para decirle a la aplicacion que tambien me escanee otros packages de common que tambien esta en maven
 public class SpringbootServiciosProductosApplication {
 
 	public static void main(String[] args) {
