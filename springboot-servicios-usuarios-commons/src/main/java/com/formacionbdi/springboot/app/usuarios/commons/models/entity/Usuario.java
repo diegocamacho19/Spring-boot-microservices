@@ -121,6 +121,8 @@ public class Usuario implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	
 
 	private static final long serialVersionUID = 4002221912401133094L;
 

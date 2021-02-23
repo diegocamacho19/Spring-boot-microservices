@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
-<fullyQualifiedTypeName name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer"/>
 <fullyQualifiedTypeName name="com.formacionbdi.springboot.app.usuarios.models.entity.Usuario"/>
 <fullyQualifiedTypeName name="com.formacionbdi.springboot.app.usuarios.models.entity.Role"/>
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.springframework.security.authentication.AuthenticationEventPublisher"/>
+<fullyQualifiedTypeName name="brave.Tracer"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
