@@ -1,0 +1,30 @@
+docker --version
+
+Sacamos el jar del microservicio config server
+
+con el siguiente comando en la ruta del microservicio
+
+.\mvnw clean package
+
+organizamos el Dockerfile en el servicio y despues de eso tiramos el comando en la terminal
+docker build -t config-server:v1 . 
+
+para ver las imagenes
+
+docker images
+
+
+hay que crear una red para que todos los microservicios este enlazados y se puedan comunicar
+docker network create springcloud
+
+hay que ejecutar la imagen 
+docker run -p 8889:8889 --name config-server --network springcloud config-server:v1
+
+
+listado de contenedores
+docker container ls  ó  docker ps  
+
+docker ps -a  = son los contenedores que estan activos y desactivados
+
+para la ayuda es
+docker container --help
